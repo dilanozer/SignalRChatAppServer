@@ -6,7 +6,6 @@ builder.Services.AddCors(options => options.AddDefaultPolicy(policy =>policy
       .AllowCredentials()
       .AllowAnyHeader()
       .SetIsOriginAllowed(x => true)));
-
 builder.Services.AddSignalR();
 
 var app = builder.Build();

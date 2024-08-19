@@ -39,12 +39,9 @@ namespace SignalRChatServerExample.Hubs
         public async Task AddGroup(string groupName)
         {
             await Groups.AddToGroupAsync(Context.ConnectionId, groupName);
-
 			Group group = new Group { GroupName = groupName };
 			group.Clients.Add(ClientSource.Clients.FirstOrDefault(c => c.ConnectionId == Context.ConnectionId));
-
             GroupSource.Groups.Add(group);
-
             await Clients.All.SendAsync("groups", GroupSource.Groups);
         }
 
@@ -69,7 +66,6 @@ namespace SignalRChatServerExample.Hubs
 		{
 
 			Group group = GroupSource.Groups.FirstOrDefault(g => g.GroupName == groupName);
-
 			await Clients.Caller.SendAsync("clients", groupName == "-1" ? ClientSource.Clients : group.Clients);
 		}
 
