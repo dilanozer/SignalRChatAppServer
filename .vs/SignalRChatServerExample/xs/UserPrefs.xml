@@ -1,0 +1,30 @@
+﻿<Properties StartupConfiguration="{513B59DA-FFAB-48B3-9D80-4BB5E116EF28}|https">
+  <MonoDevelop.Ide.Workbench ActiveDocument="SignalRChatServerExample/Hubs/ChatHub.cs">
+    <Files>
+      <File FileName="SignalRChatServerExample/Hubs/ChatHub.cs" Line="43" Column="60" />
+      <File FileName="SignalRChatServerExample/Program.cs" />
+      <File FileName="SignalRChatServerExample/Models/Client.cs" />
+      <File FileName="SignalRChatServerExample/Data/ClientSource.cs" />
+      <File FileName="SignalRChatServerExample/Models/Group.cs" Line="6" Column="26" />
+      <File FileName="SignalRChatServerExample/Data/GroupSource.cs" Line="8" Column="65" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="SignalRChatServerExample" expanded="True">
+            <Node name="SignalRChatServerExample" selected="True">
+              <Node name="Hubs" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.SignalRChatServerExample FirstBuild="True" PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+</Properties>
